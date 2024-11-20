@@ -25,4 +25,12 @@
    backdrop-filter: blur(10px);
    background-color: #0f0e17af;
  }
- 
+
+  .entry-cover {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+   max-height: 25vh;
+   width: auto;
+ }
