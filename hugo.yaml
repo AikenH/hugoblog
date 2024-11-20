@@ -1,3 +1,87 @@
-baseURL: https://example.org/
+# base information of site.
+baseURL: https://metisy.cool/
+title: aiken's blog
 languageCode: en-us
-title: My New Hugo Site
+theme: PaperMod
+
+# build option
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# enable html render.
+pygmentsUseClasses: true
+markup:
+  highlight:
+    guessSyntax: true
+    noClasses: false
+    codeFences: true
+    lineNos: true
+    Linenos: true
+    style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
+  extensions:
+    passthrough:
+      delimiters:
+        block:
+        - - \[
+          - \]
+        - - $$
+          - $$
+        inline:
+        - - \(
+          - \)
+      enable: true
+
+# minimal file setting.
+minify:
+  disableCSS: false
+  disableHTML: false
+  disableJS: false
+  disableJSON: false
+  disableSVG: false
+  disableXML: true
+  minifyOutput: true
+
+# base setting
+paginate: 10
+
+# params: like default meta data.
+params:
+  env: production
+  title: Draft Post
+  description: "Let's learn and innovate together!"
+  keyword: [Blog, Tech, Code, Life]
+  author: ["aikenhong"]
+  images: 
+  DateFormat: "January 2, 2006"
+  
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  disableShare: false
+  hideSummary: false
+  searchHidden: false
+  disableHLJS: true
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+  editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
