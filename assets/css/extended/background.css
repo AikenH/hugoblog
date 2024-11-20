@@ -1,0 +1,30 @@
+#top,
+.list,
+.list-profile {
+  background-image: url(../../cover/cover1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#top.dark,
+.list.dark,
+.list-profile.dark {
+  background-image: url(../../cover/cover0.jpg);
+}
+
+#top::after,
+.list::after,
+.list-profile::after {
+  background: inherit;
+  filter: blur(5px);
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  z-index: -1;
+  background-attachment: fixed;
+}
