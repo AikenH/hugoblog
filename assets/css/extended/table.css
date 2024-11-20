@@ -1,0 +1,28 @@
+/* make the table fully wide  & style */
+.post-content table:not(.lntable .highlighttable,.highlight table,.gist .highlight){
+  display: table;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid black;
+  outline: 2px solid black;
+}
+
+.dark .post-content table:not(.lntable .highlighttable,.highlight table,.gist .highlight){
+  outline: 2px solid rgb(54, 156, 95);
+}
+
+.post-content table:not(.lntable .highlighttable,.highlight table,.gist .highlight) thead{
+  background-color: #545d7b8a;
+}
+
+.dark .post-content table:not(.lntable .highlighttable,.highlight table,.gist .highlight) thead{
+  background-color: rgb(62, 62, 62);
+}
+
+.post-content table:not(.lntable .highlighttable,.highlight table,.gist .highlight) td,
+.post-content table:not(.lntable .highlighttable,.highlight table,.gist .highlight) tr,
+.post-content table:not(.lntable .highlighttable,.highlight table,.gist .highlight) th{
+  border-bottom: unset;
+  border: 1px solid black,
+}
+
