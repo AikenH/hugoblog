@@ -1,0 +1,28 @@
+/* post entry feature */
+
+/* F1 post entry background */
+.list .post-entry {
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+}
+
+.list.dark .post-entry {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+}
+
+
+/* TODO: 需要添加响应式 */
+.post-info .entry-content {
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+}
+
+/* F3 enable tag & categories cover */
+article.tag-entry .entry-cover{
+  display: flex;
+}
