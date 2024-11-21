@@ -1,0 +1,27 @@
+
+/* foot tags information */
+#top:not(.dark) .post-footer .post-tags li,
+#top:not(.dark) .post-footer .post-tags li a,
+#top:not(.dark) .post-footer .paginav{
+  -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(10px);
+   border: unset;
+}
+
+#top:not(.dark) .post-footer .post-tags li,
+#top:not(.dark) .post-footer .post-tags li a{
+  background-color: rgba(0, 0, 0, 0.25);
+  color: aliceblue;
+}
+
+#top:not(.dark) .post-footer .paginav{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#top:not(.dark) .post-footer .paginav span:not(.next){
+  color: rgb(213,195,195);
+}
+
+#top:not(.dark) .post-footer .paginav a:hover{
+  background-color: rgba(0, 0, 0, 0.7);
+}
