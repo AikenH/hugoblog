@@ -1,6 +1,7 @@
 theme: PaperMod
 
 params:
+  ShowPageNums: true
   fancybox: true
   math: true
   comments: true
