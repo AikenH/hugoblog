@@ -88,3 +88,12 @@
 .toc li a:hover{
     color: rgba(48,37,155,1);
 }
+
+.entry-content + footer{
+  display: inline-block;
+}
+
+.tags{
+  /* display: inline-block; */
+  float: right;
+}
