@@ -97,3 +97,9 @@
   /* display: inline-block; */
   float: right;
 }
+
+#sakana-widget{
+  position: fixed;
+  bottom: -30px;
+  right: 80px;
+}
