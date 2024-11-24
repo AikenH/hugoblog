@@ -9,11 +9,11 @@ params:
   assets:
     disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon/ron.ico"
+    favicon16x16: "/favicon/ron-16x16.png"
+    favicon32x32: "/favicon/ron-32x32.png"
+    apple_touch_icon: "/favicon/ron-apple-touch-icon.png"
+    safari_pinned_tab: "/favicon/ron-192x192.png"
 
   label:
     text: "Home"
