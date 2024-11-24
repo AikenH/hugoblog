@@ -14,7 +14,7 @@ buildExpired: false
 pygmentsUseClasses: true
 markup:
   highlight:
-    guessSyntax: true
+    guessSyntax: false
     noClasses: false
     codeFences: true
     lineNos: true
