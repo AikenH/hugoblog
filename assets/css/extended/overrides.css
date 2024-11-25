@@ -7,6 +7,10 @@
  .dark{
    --primary: #23b06c;
  }
+
+ body{
+  font-family: "Open Sans", "LXGW WenKai", sans-serif;
+ }
  
  article.post-single{
    border-radius: 20px;
