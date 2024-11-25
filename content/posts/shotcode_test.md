@@ -20,6 +20,23 @@ cover:
 该文章会测试各种后续修改，包括基础字体，各种后续添加适配的shortcodes： 如 alert、视频、widget ，包括字体渲染，视频渲染，iframe渲染，以及相关的一些其他修改，
 同时文章由于引入了大量的js，导致一些功能的渲染速度会下降，这也是我们需要测试的地方，包括找到加载的瓶颈；
 
+## Timeline
+
+{{< timeline date="2023-10-01" title="国庆节" description="祖国生日快乐" tags="节日" url="" >}}
+{{< timeline date="2024-01-01" title="元旦节" description="上北京er" tags="节日&计划" url="" >}}
+
+
+## Chat 
+
+{{< chat position="left" name="metisy" timestamp="2024-11-25 19:31">}}
+这是左边的消息内容。
+{{< /chat >}}
+
+{{< chat position="right" name="aikenh" timestamp="2024-11-25 19:32" >}} 
+这是右边的消息内容，测试长长长长长长长长长长长长长长长长长长长长长长长长度。
+{{< /chat >}}
+
+
 ## quota-center
 
 {{< quote-center >}}
@@ -153,9 +170,9 @@ A --> B2[Value 0] --> E[All Action Possible]
 
 ### gist
 
-fail for now
+https://www.andbible.com/post/hugo-content-management-shortcodes/
 
-{{< gist user 50a7482715eac222e230d1e64dd9a89b >}}
+{{< gist spf13 7896402 "img.html" >}}
 
 
 ### twitter
@@ -174,7 +191,8 @@ fail for now
 
 ### bilibili
 
-...
+{{< bilibili BV12NpBeYErP >}}
+
 
 ### youtube
 
