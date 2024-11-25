@@ -18,6 +18,41 @@ cover:
 ---
 
 
+## Alert Block 
+
+接下来测试各个关键词的渲染效果并进行调整， 首先就是 Note
+
+
+> [!note]
+> test note block's style.
+
+
+
+其次是：important
+
+> [!important]
+>  重要内容
+
+接着是： tip
+
+> [!tip]
+> 这是一些提示内容
+
+再次是 warning
+
+> [!warning]
+> 这是一些告警内容
+
+最后是caution
+
+> [!caution]
+> 重要内容
+
+然后测试一个自己添加的
+
+> [!summary]
+> 总结
+
 
 ## mermaid 
 
@@ -65,3 +100,21 @@ B1 -- 40% --> D[Other Action]
 
 A --> B2[Value 0] --> E[All Action Possible]
 ```
+
+## iframe
+
+### gist
+
+{{< gist user 50a7482715eac222e230d1e64dd9a89b >}}
+
+
+### ins
+
+{{< instagram CxOWiQNP2MO >}}
+
+
+## Videos
+
+### bilibili
+
+### youtube
