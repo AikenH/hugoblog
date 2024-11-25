@@ -1,0 +1,41 @@
+blockquote.quote {
+    position: relative;
+    margin: 2em auto;
+    padding-left: 3em;
+    border: none;
+}
+blockquote.quote::before {
+    position: absolute;
+    left: 0;
+    content: '“';
+    color: var(--color-contrast-low);
+    font-family: 'JetBrains Mono', 'Amstelvar', 'Noto Serif SC', serif;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1;
+}
+blockquote.quote.poetry {
+    display: table;
+    padding: 0;
+}
+blockquote.quote.poetry::before {
+    left: -1em;
+}
+blockquote.quote.poetry p:last-child {
+    margin: 0;
+}
+blockquote.quote.en p {
+    line-height: 1.618;
+    text-align: left;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+}
+@media (max-width: 768px) {
+    blockquote.quote.poetry {
+        padding-left: 3em;
+   }
+    blockquote.quote.poetry::before {
+        left: 0;
+   }
+}
