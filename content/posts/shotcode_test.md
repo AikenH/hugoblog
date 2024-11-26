@@ -19,25 +19,28 @@ cover:
 
 该文章会测试各种后续修改，包括基础字体，各种后续添加适配的shortcodes： 如 alert、视频、widget ，包括字体渲染，视频渲染，iframe渲染，以及相关的一些其他修改，
 同时文章由于引入了大量的js，导致一些功能的渲染速度会下降，这也是我们需要测试的地方，包括找到加载的瓶颈；
-## sidenote
+
+## Extend ShortCodes
+
+### sidenote
 
 abc
 
 {{< sidenote >}}
-test Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 {{< /sidenote >}}
 
 def Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
-## Timeline
+### Timeline
 
 {{< timeline date="2023-10-01" title="国庆节" description="祖国生日快乐" tags="节日" url="" >}}
 {{< timeline date="2024-01-01" title="元旦节" description="上北京er" tags="节日&计划" url="" >}}
 
 
-## Chat 
+### Chat 
 
 {{< chat position="left" name="metisy" timestamp="2024-11-25 19:31">}}
 这是左边的消息内容。
@@ -48,20 +51,20 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 {{< /chat >}}
 
 
-## quota-center
+### quota-center
 
 {{< quote-center >}}
 十里青山远，潮平路带沙<br>数声啼鸟怨年华<br>又是凄凉时候，在天涯<br>白露收残月，清风散晓霞<br>绿杨堤畔问荷花<br>记得年时沽酒，那人家
 {{< /quote-center >}}
 
-## quota 
+### quota 
 
 {{< quote >}}
 十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。
 {{< /quote >}}
 
 
-## simple-notice 
+### simple-notice 
 
 {{< simple-notice simple-notice-warning >}}
 十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。
@@ -76,19 +79,19 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 {{< /simple-notice >}}
 
 
-## notice 
+### notice 
 
 {{< notice notice-warning >}}
 十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。
 {{< /notice >}}
 
 
-## github widget
+### github widget
   
 {{< github name="Organic-Carbon-Estimating" link="https://github.com/guanqr/Organic-Carbon-Estimating" description="A program used in estimating organic carbon stocks in oceans. 计算指定海域的有机碳存量，包括颗粒有机碳与溶解有机碳，数据依赖于 NASA 中分辨率成像光谱仪 MODIS 遥感产品。" color="#e16737" language="MATLAB" >}}
 
 
-## align 
+### align 
 
 {{< align left "文字居左" >}}
 
@@ -96,7 +99,20 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 {{< align right "文字居右" >}}
 
-## Alert Block 
+
+### Video Function
+
+#### bilibili
+
+{{< bilibili BV12NpBeYErP >}}
+
+## Markdown Function Expand Support
+
+### pangujs
+
+这是一段测试pangu之白的article，看看渲染出来的效果如何
+
+### Alert Block 
 
 接下来测试各个关键词的渲染效果并进行调整， 首先就是 Note
 
@@ -129,8 +145,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 > [!summary]
 > 总结
 
-
-## mermaid 
+### mermaid 
 
 mermaid 的跟随主题切换更改渲染的方式一直不work，暂时使用black theme加渲染的方式做处理。
 
@@ -177,7 +192,8 @@ B1 -- 40% --> D[Other Action]
 A --> B2[Value 0] --> E[All Action Possible]
 ```
 
-## iframe
+
+## Default ShortCodes
 
 ### gist
 
@@ -185,6 +201,9 @@ https://www.andbible.com/post/hugo-content-management-shortcodes/
 
 {{< gist spf13 7896402 "img.html" >}}
 
+### youtube
+
+{{< youtube id="w7Ft2ymGmfc"  >}}
 
 ### twitter
 
@@ -194,17 +213,6 @@ https://www.andbible.com/post/hugo-content-management-shortcodes/
 
 {{< instagram CxOWiQNP2MO >}}
 
-## pangujs
-
-这是一段测试pangu之白的article，看看渲染出来的效果如何
-
-## Videos
-
-### bilibili
-
-{{< bilibili BV12NpBeYErP >}}
 
 
-### youtube
-
-{{< youtube id="w7Ft2ymGmfc"  >}}
+## FI
