@@ -1,11 +1,17 @@
 /* make the table fully wide  & style */
 .post-content table:not(.lntable .highlighttable,.highlight table,.gist .highlight){
-  display: table;
+  display: block;
   background-color: transparent;
   border-radius: 6px;
   border: 1px solid black;
   outline: 2px solid black;
+  overflow-x: auto;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
+/* responsive ref */
+/* ref: https://discourse.gohugo.io/t/responsive-tables-in-markdown/10639/8 */
+/* ref: https://stackoverflow.com/questions/19794211/horizontal-scroll-on-overflow-of-table/62451601#62451601 */
 
 .dark .post-content table:not(.lntable .highlighttable,.highlight table,.gist .highlight){
   outline: 2px solid rgb(54, 156, 95);

@@ -102,12 +102,19 @@
   float: right;
 }
 
-#sakana-widget{
-  position: fixed;
-  bottom: -30px;
-  right: 80px;
+@media screen and (min-width: 768px){
+  #sakana-widget{
+    position: fixed;
+    bottom: -30px;
+    right: 80px;
+  }
 }
 
+@media screen and (max-width: 768px){
+  #sakana-widget{
+    display: none;
+  }
+}
 
 pre.mermaid{
   text-align: center;
@@ -129,3 +136,14 @@ pre.mermaid{
   margin-left: auto !important;
   margin-right: auto !important;
 }
+
+/* math overflow */
+.katex-html{
+  overflow-x: auto;
+}
+
+/* https://zxuqian.cn/css-how-to-hide-scrollbars/ */
+.katex-html::-webkit-scrollbar{
+  display: none;
+}
+
