@@ -1,0 +1,65 @@
+.sidenote {
+  font-size: 80%;
+  position: relative;
+}
+/* Wide viewport */
+@media (min-width: 1400px) {
+  .sidenote {
+    float: left;
+    clear: left;
+    margin-left: -16vw;
+    text-align: right;
+
+    top: 0rem;
+    width: 13vw;
+    margin-top: 1rem;
+  }
+}
+
+/* Sidenote counter */
+body {
+  counter-reset: sidenote-counter;
+}
+.sidenote-number {
+  counter-increment: sidenote-counter;
+}
+/* Counter before the sidenote in the margin. */
+.sidenote::before {
+  content: counter(sidenote-counter) ".";
+  position: relative;
+  vertical-align: baseline;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+/* Counter in the main body. */
+.sidenote-number::after {
+  content: counter(sidenote-counter);
+  vertical-align: super;
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+@media (min-width: 1400px) {
+  /* Highlight the sidenote when mouse hovers on the sidenote number in body. */
+  .sidenote-number:hover .sidenote {
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    /* background-color: rgba(195, 195, 195, 0.48); */
+    border-radius: 6px;
+    font-weight: bold;
+    /* padding: 5px; */
+  }
+  .dark .sidenote-number:hover .sidenote {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+}
+.dark .sidenote-number small.sidenote {
+  color: aliceblue;
+}
+.sidenote-number + p {
+  display: inline;
+}
+
+p:has(+ .sidenote-number) {
+  display: inline;
+}
