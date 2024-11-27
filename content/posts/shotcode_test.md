@@ -22,6 +22,15 @@ cover:
 
 ## Extend ShortCodes
 
+### encrypt
+
+{{% hugo-encryptor "password" %}}
+here is a long message.  
+{{% /hugo-encryptor %}}
+
+  
+seems like we can only entrypt once in one markdown, if we encrypt multiplytimes, the function will make the password error.
+
 ### sidenote
 
 abc

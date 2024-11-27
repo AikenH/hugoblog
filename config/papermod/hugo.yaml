@@ -9,22 +9,22 @@ params:
   assets:
     disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "/favicon/ron.ico"
-    favicon16x16: "/favicon/ron-16x16.png"
-    favicon32x32: "/favicon/ron-32x32.png"
-    apple_touch_icon: "/favicon/ron-apple-touch-icon.png"
-    safari_pinned_tab: "/favicon/ron-192x192.png"
+    favicon: "/favicon/ghost.ico"
+    favicon16x16: "/favicon/ghost-16x16.png"
+    favicon32x32: "/favicon/ghost-32x32.png"
+    apple_touch_icon: "/favicon/ghost-apple-touch-icon.png"
+    safari_pinned_tab: "/favicon/ghost-192x192.png"
 
-  label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+  # label:
+  #   text: "Home"
+  #   icon: /apple-touch-icon.png
+  #   iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
     title: Aiken's Blog
-    subtitle: "Let's learn and innovate together!"
+    subtitle: "<!—#*\"//*—%\"\"\" "
     imageUrl: "https://avatars.githubusercontent.com/u/23023315?v=4"
     imageWidth: 150
     imageHeight: 150
@@ -43,24 +43,20 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/AikenH"
     - name: steam
-      url: ""
+      url: "https://steamcommunity.com/id/AikenH/"
     - name: zhihu
-      url: ""
+      url: "https://www.zhihu.com/people/Aiken-h"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: false # hide everywhere but not in structured data
