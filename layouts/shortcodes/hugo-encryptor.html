@@ -1,0 +1,100 @@
+<head>
+    <!-- Other head elements -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+</head>
+
+{{ $_hugo_config := `{ "version": 1 }` }}
+{{/*
+    ## Hugo Encrypt
+    ### Params:
+    - `password`:
+
+        require param
+    - Simple
+
+        {{% hugo-encryptor "your password" %}}
+your content
+{{% /hugo-encryptor %}}
+
+*/}}
+{{/* DEFAULTS */}}
+
+<div class="hugo-encryptor-container">
+  <div class="hugo-encryptor-prompt">
+    {{ if eq .Site.Params.hugoEncryptorLanguage "en-us" }}
+      <p>Part of this article is encrypted with password:</p>
+    {{ else }}
+      <p>文章的部分内容被密码保护：</p>
+    {{ end }}
+  </div>
+  <div class="hugo-encryptor-form">
+    <input
+      class="hugo-encryptor-input"
+      placeholder='{{ if eq .Site.Params.hugoEncryptorLanguage "en-us" }}Please input the password{{ else }}请输入密码{{ end }}'
+    />
+    <input
+      class="hugo-encryptor-button"
+      type="button"
+      value='{{ if eq .Site.Params.hugoEncryptorLanguage "en-us" }}Click to verify{{ else }}CLICK{{ end }}'
+      onclick="_click_handler(this)"
+    />
+  </div>
+  <div
+    class="hugo-encryptor-cipher-text"
+    data-password="{{ .Get 0 }}"
+    style="display: none;"
+  >
+    <span style="display: none;">--- DON'T MODIFY THIS LINE ---</span>
+    {{ .Inner }}
+  </div>
+</div>
+
+<script>
+    // This script should be included in your Hugo templates
+// Make sure to include the crypto-js library in your HTML
+
+function sanitizeContent(content) {
+    // Remove unwanted characters (like control characters)
+    return content.replace(/[\x00-\x1F\x7F]/g, '').trim(); // Remove control characters and trim whitespace
+}
+
+function encryptContent(password, content) {
+    const key = CryptoJS.MD5(password).toString();
+    const iv = key.substring(16); // Use the second half of the key as IV
+    const paddedContent = padContent(content);
+    const encrypted = CryptoJS.AES.encrypt(paddedContent, CryptoJS.enc.Utf8.parse(key), {
+        iv: CryptoJS.enc.Utf8.parse(iv),
+        mode: CryptoJS.mode.CBC,
+        padding: CryptoJS.pad.Pkcs7
+    });
+    return CryptoJS.enc.Base64.stringify(encrypted.ciphertext);
+}
+
+function padContent(content) {
+    const blockSize = 32; // AES block size
+    const padlen = blockSize - (content.length % blockSize);
+    // const padding = String.fromCharCode(padlen).repeat(padlen);
+    // return content + padding;
+    return content;
+}
+
+function processEncryptedBlocks() {
+    const blocks = document.querySelectorAll('.hugo-encryptor-cipher-text');
+    blocks.forEach(block => {
+        const password = block.getAttribute('data-password');
+        const content = block.innerHTML.trim(); // Trim whitespace
+        const sanitizedContent = sanitizeContent(content); // Sanitize content
+        const encryptedContent = encryptContent(password, sanitizedContent);
+        block.innerHTML = encryptedContent;
+        block.removeAttribute('data-password');
+    });
+
+    // Append the decrypt.js script
+    const script = document.createElement('script');
+    script.src = '/js/decrypt.js';
+    document.body.appendChild(script);
+}
+
+// Call the function to process the blocks after the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', processEncryptedBlocks);
+</script>
