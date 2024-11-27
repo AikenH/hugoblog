@@ -10,7 +10,7 @@ tags:
 categories: 
 mathjax: false
 cover:
-    image: "https://picture-bed-001-1310572365.cos.ap-guangzhou.myqcloud.com/mac/DSCF4104_%E5%89%AF%E6%9C%AC.JPG" # image path/url
+    image: cover/cover2.jpeg # image path/url
 ---
 
 >[!summary]+

@@ -153,3 +153,11 @@ pre.mermaid{
   display: none;
 }
 
+.pagination a.last-icon{
+  background: unset;
+  border: unset;
+  font-size: 35px;
+  color: #001e1d;
+  padding-top: 2px;
+}
+

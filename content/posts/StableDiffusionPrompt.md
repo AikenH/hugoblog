@@ -5,7 +5,7 @@ date: 2023-04-26 21:22:38
 lang: cn
 toc: true
 catalog: true
-tag:
+tags:
 - AI
 categories:
 - Machine Learning
