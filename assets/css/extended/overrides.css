@@ -33,7 +33,7 @@
 
   .entry-cover {
    display: flex;
-   align-items: baseline;
+   align-items: center;
    justify-content: center;
    overflow: hidden;
    max-height: 30vh;
@@ -41,11 +41,13 @@
  }
 
 .dark .archive-month:not(:last-of-type){
-   border-bottom: 2px dashed #957029a6;
+   /* border-bottom: 2px dashed #957029a6; */
+   border-bottom: unset;
  }
  
  .archive-month:not(:last-of-type){
-   border-bottom: 2px dashed rgba(0,0,0,0.5);
+   /* border-bottom: 2px dashed rgba(0,0,0,0.5); */
+   border-bottom: unset;
  }
  
  .dark .archive-year:not(:last-of-type){
@@ -60,14 +62,18 @@
    color: #001e1d;
  }
  
- .list.search.dark #searchbox input {
-   color: #e53170;
-   border: 4px solid #e53170;
+ .list.search #searchbox input {
+   color: black;
+   border: 1px solid #080808;
  }
- 
+
  .list.search.dark #searchbox input::placeholder{
-   color:#e53170;
+  color: #001e1d;
  }
+.list.search.dark #searchbox input{
+  background: rgba(73,73,73,0.5);
+  backdrop-filter: blur(5px);
+}
  
  /* post color setting  inline code */
  .post-content li code,
