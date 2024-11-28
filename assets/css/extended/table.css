@@ -1,13 +1,13 @@
 /* make the table fully wide  & style */
 .post-content table:not(.lntable .highlighttable,.highlight table,.gist .highlight){
-  display: block;
+  display: table;
   background-color: transparent;
   border-radius: 6px;
   border: 1px solid black;
   outline: 2px solid black;
   overflow-x: auto;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
+  table-layout: fixed;
+  word-break: break-all;
 }
 /* responsive ref */
 /* ref: https://discourse.gohugo.io/t/responsive-tables-in-markdown/10639/8 */
