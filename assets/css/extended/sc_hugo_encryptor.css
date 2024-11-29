@@ -1,9 +1,6 @@
 /* change the style of the encrypt button & input */
 /* only encrypt once in one posts. */
 
-/* todo: need update dark-mode color & the input color when type. */
-/* todo: need update the button & the input focus button. style. */
-
 .hugo-encryptor-container:has(>.hugo-encryptor-prompt) {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -51,4 +48,8 @@ input.hugo-encryptor-input:focus{
 }
 .dark input.hugo-encryptor-input:focus{
     box-shadow: 0 0 0 1px #5cbd63;
+}
+
+.post-single:has(.post-content .hugo-encryptor-prompt) #toc-container{
+    display: none;
 }
