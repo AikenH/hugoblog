@@ -21,6 +21,7 @@
 
 input.hugo-encryptor-input {
     border: 2px solid black;
+    color: var(--primary);
 }
 
 input.hugo-encryptor-button {

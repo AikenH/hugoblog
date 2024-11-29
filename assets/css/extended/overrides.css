@@ -165,3 +165,20 @@ pre.mermaid{
 .pagination a.last-icon{
   color: var(--primary);
 }
+
+/* make img write by html center as well */
+.post-content img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile_inner span{
+  width: 15ch;
+  text-wrap: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(15) infinite alternate-reverse;
+}
+
+@keyframes typing {
+  from {width: 0ch;}
+}
