@@ -8,7 +8,7 @@ params:
   tags: true
   assets:
     disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
+    disableFingerprinting: true
     favicon: "/favicon/ghost.ico"
     favicon16x16: "/favicon/ghost-16x16.png"
     favicon32x32: "/favicon/ghost-32x32.png"

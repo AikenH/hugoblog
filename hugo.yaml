@@ -1,5 +1,5 @@
 # base information of site.
-baseURL: https://metisy.cool/
+baseURL: https://hugotest-phi.vercel.app/
 title: aiken's blog
 languageCode: en-us
 theme: PaperMod
