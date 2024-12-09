@@ -1,9 +1,9 @@
 .list.search.dark h1 {
-  color: #001e1d;
+  color: var(--primary);
 }
 
 .list.search #searchbox input {
-  color: black;
+  color: var(--primary);
   /* border: 1px solid #080808; */
 }
 

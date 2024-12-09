@@ -18,6 +18,7 @@ article.post-single {
 }
 
 .list-archive .main,
+.list-linklog-post .main,
 #top article.post-single {
   -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
@@ -25,6 +26,7 @@ article.post-single {
 }
 
 .list-archive.dark .main,
+.list-linklog-post.dark .main,
 #top.dark article.post-single {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -166,4 +168,15 @@ pre.mermaid {
   from {
     width: 0ch;
   }
+}
+
+.jump-icon {
+  position: relative;
+  top:3px;
+  padding-right: 10px; /* Space between the icon and the title */
+  font-size: 1em; /* Adjust size as needed */
+}
+#search-link{
+  text-decoration: underline;
+  color: slateblue;
 }
