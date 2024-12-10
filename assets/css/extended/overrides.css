@@ -180,3 +180,7 @@ pre.mermaid {
   text-decoration: underline;
   color: slateblue;
 }
+
+.list-linklog-post .archive-entry-description{
+  color: var(--secondary);
+}
