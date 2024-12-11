@@ -17,8 +17,7 @@ markup:
     guessSyntax: false
     noClasses: false
     codeFences: true
-    lineNos: true
-    Linenos: true
+    lineNos: false
     style: monokai
   goldmark:
     renderer:

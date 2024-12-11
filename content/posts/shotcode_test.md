@@ -9,12 +9,6 @@ categories:
 - Hugo
 cover:
     image: cover/cover0.jpeg
-# cover:
-#     image: "https://picture-bed-001-1310572365.cos.ap-guangzhou.myqcloud.com/mac/DSCF4104_%E5%89%AF%E6%9C%AC.JPG" # image path/url
-#     alt: "CoverImg" # alt text
-#     caption: "<text>" # display caption under cover
-#     relative: false # when using page bundles set this to true
-#     hidden: false # only hide on current single page
 ---
 
 该文章会测试各种后续修改，包括基础字体，各种后续添加适配的shortcodes： 如 alert、视频、widget ，包括字体渲染，视频渲染，iframe渲染，以及相关的一些其他修改，
@@ -24,11 +18,6 @@ cover:
 
 ### encrypt
 
-{{% hugo-encryptor "password" %}}
-here is a long message.  
-{{% /hugo-encryptor %}}
-
-  
 seems like we can only entrypt once in one markdown, if we encrypt multiplytimes, the function will make the password error.
 
 ### sidenote
