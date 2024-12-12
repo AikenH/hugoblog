@@ -13,15 +13,21 @@
     top: 0rem;
     width: 13vw;
     margin-top: 1rem;
+    
+    border-top: 2px solid rgb(0, 0, 0);
+  }
+  .dark .sidenote{
+    border-top: 2px solid rgb(255, 98, 0);
   }
 }
 
 /* Sidenote counter */
-body {
+main {
   counter-reset: sidenote-counter;
 }
 .sidenote-number {
-  counter-increment: sidenote-counter;
+  counter-increment: sidenote-counter 1;
+  
 }
 /* Counter before the sidenote in the margin. */
 .sidenote::before {
@@ -44,17 +50,20 @@ body {
   .sidenote-number:hover .sidenote {
     -webkit-backdrop-filter: blur(30px);
     backdrop-filter: blur(30px);
-    /* background-color: rgba(195, 195, 195, 0.48); */
-    border-radius: 6px;
+    background-color: #ffffff7a;
+    border-radius: 5px;
     font-weight: bold;
-    /* padding: 5px; */
+    padding: 5px;
+    box-shadow: 5px 5px 10px rgb(25, 25, 25),
+                -5px -5px 10px rgb(60, 60, 60);
   }
   .dark .sidenote-number:hover .sidenote {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
-.dark .sidenote-number small.sidenote {
-  color: aliceblue;
+.dark .sidenote-number small.sidenote,
+.dark .sidenote-number small.sidenote a {
+  color: rgb(255, 179, 0);
 }
 .sidenote-number + p {
   display: inline;
