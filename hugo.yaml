@@ -1,5 +1,5 @@
 # base information of site.
-baseURL: https://hugoaiken1.netlify.app/
+baseURL: https://blog.aikenh.cn/
 title: aiken's blog
 languageCode: en-us
 theme: PaperMod
