@@ -1,24 +1,21 @@
 ---
-title: "ShortCode Function Test"
-date: 2024-11-23 11:30:03
-Sescription: "test website's function is normal "
-tags: ["Util"]
-draft: false
+Sescription: 'test website''s function is normal '
 categories:
-- Util
-- Hugo
+- 博客功能测试系列文章
 cover:
-    image: cover/cover0.jpeg
+  image: cover/cover0.jpeg
+date: 2024-11-23 11:30:03
+draft: false
+subtitle: test hugo's shortcode function
+tags:
+- Util
+title: ShortCode Function Test
 ---
 
 该文章会测试各种后续修改，包括基础字体，各种后续添加适配的shortcodes： 如 alert、视频、widget ，包括字体渲染，视频渲染，iframe渲染，以及相关的一些其他修改，
 同时文章由于引入了大量的js，导致一些功能的渲染速度会下降，这也是我们需要测试的地方，包括找到加载的瓶颈；
 
 ## Extend ShortCodes
-
-### encrypt
-
-seems like we can only entrypt once in one markdown, if we encrypt multiplytimes, the function will make the password error.
 
 ### sidenote
 

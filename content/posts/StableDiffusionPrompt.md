@@ -1,16 +1,19 @@
 ---
-title: AIGC04 Stable Diffusion Write Prompt Better
-subtitle: 
+calendar_date: 2023-04-26
+catalog: true
+categories:
+- AIGC-StableDiffusion
+cover:
+  image: /cover/cover2.jpeg
 date: 2023-04-26 21:22:38
 lang: cn
-toc: true
-catalog: true
-tags:
-- AI
-categories:
-- Machine Learning
-- AIGC
 mathjax: false
+subtitle: null
+tags:
+- AIGC
+thumbnail: /img/header_img/lml_bg29.jpg
+title: AIGC04 Stable Diffusion Write Prompt Better
+toc: true
 ---
 
 > 该章节主要包括 Promot 生成和部分工作流的分析，旨在了解如何写出更好的关键词，如何生成更好的图片，当我们不知道怎么描述的时候也可以将该工作交给 ChatGPT，让其为我们攥写一般基础的提示词
@@ -36,7 +39,7 @@ mathjax: false
 > 各个括号的默认系数如下: () -> 1.1 ; {} -> 1.05 ; `[]` -> 0.952
 > 可以通过(())进行叠加即 1.1*1.1
 
-<!--more-->
+
 
 **额外模型调取**：编写格式为 `<lora:loramodelname:multiplier>`，即载入 loramodelname 模型，权重为 multiplier，该权重不建议过大。
 
@@ -121,11 +124,12 @@ mathjax: false
 
 ## Sample一些简单成品
 
-{{< galleries >}}
-{{<gallery src=" https://picture-bed-001-1310572365.cos.ap-guangzhou.myqcloud.com/mac/20230428141926.png" title="exam 1"  >}}
-{{<gallery src=" https://picture-bed-001-1310572365.cos.ap-guangzhou.myqcloud.com/3070PC/00037-1231245.png" >}}
-{{<gallery src=" https://picture-bed-001-1310572365.cos.ap-guangzhou.myqcloud.com/3070PC/00030-1231245.png" >}} 
-{{<gallery src=" https://picture-bed-001-1310572365.cos.ap-guangzhou.myqcloud.com/3070PC/00206-3876028130.png" >}}
+{{< galleries >}} 
+{{<gallery src="https://picture-bed-001-1310572365.cos.ap-guangzhou.myqcloud.com/mac/20230428141358.png" title="exam1" >}}
+{{<gallery src="https://picture-bed-001-1310572365.cos.ap-guangzhou.myqcloud.com/mac/20230428141926.png" title="exam 2" >}}
+{{<gallery src="https://picture-bed-001-1310572365.cos.ap-guangzhou.myqcloud.com/3070PC/00037-1231245.png" >}}
+{{<gallery src="https://picture-bed-001-1310572365.cos.ap-guangzhou.myqcloud.com/3070PC/00030-1231245.png" >}}
+{{<gallery src="https://picture-bed-001-1310572365.cos.ap-guangzhou.myqcloud.com/3070PC/00206-3876028130.png" >}}
 {{< /galleries >}}
 
 ## 参考资料

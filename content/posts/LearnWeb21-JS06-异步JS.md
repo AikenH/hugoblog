@@ -1,16 +1,19 @@
 ---
-title: LearnWeb21-JS06-异步JS
-subtitle: 
+catalog: true
+categories:
+- 前端三剑客入门笔记
+cover:
+  image: /cover/cover21.jpeg
 date: 2024-05-01 06:22:33
 lang: cn
-toc: true
-catalog: true
-tags:
-  - NotDone
-categories: 
 mathjax: false
-cover:
-    image: cover/cover2.jpeg # image path/url
+subtitle: null
+tags:
+- Web
+- JS
+thumbnail: /img/header_img/lml_bg1.jpg
+title: LearnWeb21-JS06-异步JS
+toc: true
 ---
 
 >[!summary]+
