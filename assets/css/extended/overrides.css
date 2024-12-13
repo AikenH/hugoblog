@@ -22,7 +22,7 @@ article.post-single {
 #top article.post-single {
   -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
-  background-color: rgba(104, 152, 191, 0.254);
+  background-color: rgba(104, 152, 191, 0.45);
 }
 
 .list-archive.dark .main,
