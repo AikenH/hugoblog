@@ -12,7 +12,6 @@ subtitle: intro how we use potplayer with alist,
 tags:
 - Docker
 - Windows
-- NotDone
 thumbnail: /img/header_img/lml_bg19.jpg
 title: Windows App01 Potplayer & Alist
 toc: true
