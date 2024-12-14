@@ -1,7 +1,6 @@
 theme: PaperMod
 
 params:
-  ShowFullTextinRSS: true
   ShowPageNums: true
   fancybox: true
   math: true

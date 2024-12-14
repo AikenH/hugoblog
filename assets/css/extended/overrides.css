@@ -1,7 +1,7 @@
 :root {
   --line-height: 1em;
-  --post-width: 100vh;
-  --main-width: 100vh;
+  --post-width: max(60vw, 100vh);
+  --main-width: max(60vw, 100vh);
   --tertiary: rgba(100, 174, 205, 0.5);
 }
 .dark {
@@ -9,6 +9,8 @@
 }
 
 body {
+  max-width: 100vw;
+  overflow-x: hidden;
   font-family: "Open Sans", "LXGW WenKai", sans-serif;
 }
 

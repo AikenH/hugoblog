@@ -3,7 +3,7 @@
   position: relative;
 }
 /* Wide viewport */
-@media (min-width: 1400px) {
+@media (min-width: 1500px) {
   .sidenote {
     float: left;
     clear: left;
