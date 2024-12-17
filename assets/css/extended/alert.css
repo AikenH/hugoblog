@@ -10,6 +10,7 @@
   /* border: 1px solid black; */
 }
 
+.dark .alert-blockquote *,
 .alert-blockquote * {
   color: var(--content-color) !important;
 }
@@ -42,6 +43,7 @@
 /* Light theme */
 /* default */
 .alert-blockquote {
+  border-top:unset;
   /* border: 1px solid #166dd0; */
   /* --title-background-color: rgba(221, 233, 244, 0.631); */
   --content-background-color: rgba(221, 233, 244, 0.602);
@@ -114,6 +116,7 @@
 
 /* Dark theme */
 .dark .alert-blockquote {
+  border-top:unset;
   /* --content-color: #d0d7dd; */
   /* --title-background-color: #5151527c; */
   --content-background-color: rgba(22, 37, 50, 0.8);
@@ -173,3 +176,10 @@
   background: var(--content-background-color);
 }
 
+
+blockquote:not(.alert-blockquote){
+  color: #a02222c2;
+  border-top: 2px solid  #9c1e1ec2;
+  font-size: 0.9rem;
+  font-style: italic;
+}
