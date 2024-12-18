@@ -48,6 +48,10 @@ params:
       url: "https://github.com/AikenH"
     - name: steam
       url: "https://steamcommunity.com/id/AikenH/"
+    - name: email
+      url: "mailto:h.aiken.970@gmail.com"
+    - name: x
+      url: "https://x.com/aiken_h97"
     - name: zhihu
       url: "https://www.zhihu.com/people/Aiken-h"
 
