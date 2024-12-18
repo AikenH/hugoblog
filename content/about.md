@@ -16,13 +16,13 @@ searchHidden: false
   👋 Hi there! I'm AikenHong.
 </p>
 
-### 🚀 About Me
+## 🚀 About Me
 
 I am a Machine Learning Engineer and passionate software developer, specializing in AI research, with a strong commitment to exploring the endless possibilities within the IT industry. I hold a master's degree from Xi'an Jiaotong University.
 
 I am currently focused on AI and machine learning projects while diligently working to become a full-stack developer. My enthusiasm for exploring new worlds and concepts is fueled by my love for travel and immersive video games, which inspire my creativity and drive my eagerness to learn and try new things.
 
-### 🛠️ Skills & Tools
+## 🛠️ Skills & Tools
 
 - **Development Languages**:
     
@@ -36,13 +36,13 @@ I am currently focused on AI and machine learning projects while diligently work
     - IDEs: VSCode & Vim (Neovim)
     - Terminal Emulators: Windows Terminal, WezTerm, iTerm
 
-### 🎮 Fun Fact
+## 🎮 Fun Fact
 
 The strategy and perseverance needed in Souls-like games are traits I carry into my coding and research work. Just like in gaming, patience and creativity are key!
 
 Feel free to explore my repositories and connect with me for any collaboration. Let's learn and innovate together!
 
-### 🔗 Connect with Me
+## 🔗 Connect with Me
 
 <div style="display: flex; justify-content: center; align-items: center;">
   <a href=" https://aikenh.cn"><img alt="github" title="AikenD" src=" https://custom-icon-badges.demolab.com/badge/-aiken%20blog-palegreen?style=for-the-badge&logo=package&logoColor=black"></a>
