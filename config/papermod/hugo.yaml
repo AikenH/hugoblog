@@ -1,6 +1,7 @@
 theme: PaperMod
 
 params:
+  autofoldtoc: false
   ShowPageNums: true
   fancybox: true
   math: true
