@@ -90,7 +90,7 @@ all between those two symbol is comment.
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
 ```
 
-然后在 CSS 文件中全局/局部定义字体，这里给一个全局定义的例子，后面可以通过局部的规则对其进行覆盖：
+然后在 CSS 文件中全局/局部定义字体，这里给一个全局定义的例子，后面可以通过局部的规则对其进行覆盖：
 
 ```css
 html {
