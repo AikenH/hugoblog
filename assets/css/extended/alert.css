@@ -177,7 +177,7 @@
 }
 
 
-blockquote:not(.alert-blockquote){
+blockquote:not(.alert-blockquote, .quote-center, .quote){
   color: #a02222c2;
   border-top: 2px solid  #9c1e1ec2;
   font-size: 0.9rem;
