@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover25.jpeg
 date: 2021-09-28 05:34:22
+description: How to Understand Attention Mechanism
 lang: cn
 mathjax: false
-subtitle: How to Understand Attention Mechanism
 tags:
 - Machine Learning
 - Survey

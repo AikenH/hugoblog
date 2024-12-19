@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover0.jpeg
 date: 2023-05-01 09:12:04
+description: using immich to backup all the photos of your home.
 lang: cn
 mathjax: false
-subtitle: using immich to backup all the photos of your home.
 tags:
 - Windows
 - Docker

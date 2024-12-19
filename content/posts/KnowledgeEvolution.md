@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover5.jpeg
 date: 2021-04-07 05:34:22
+description: Knowledge Evolution in Neural Networks
 lang: cn
 mathjax: false
-subtitle: Knowledge Evolution in Neural Networks
 tags:
 - Semi-SL
 thumbnail: /img/header_img/lml_bg5.jpg

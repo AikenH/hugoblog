@@ -6,10 +6,10 @@ categories:
 cover:
   image: /cover/cover20.jpeg
 date: 2021-12-04 01:43:30
+description: The Design of the UniFramework 1
 lang: cn
 mathjax: false
 password: aikenhong_blog
-subtitle: The Design of the UniFramework 1
 tags:
 - Machine Learning
 thumbnail: /img/header_img/lml_bg20.jpg

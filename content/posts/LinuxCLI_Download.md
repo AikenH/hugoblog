@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover5.jpeg
 date: 2023-07-07 22:10:52
+description: null
 lang: cn
 mathjax: false
-subtitle: null
 tags:
 - Linux
 - CLI

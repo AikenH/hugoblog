@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover14.jpeg
 date: 2021-09-26 15:36:25
+description: Build your Gitbook
 lang: cn
 mathjax: true
-subtitle: Build your Gitbook
 tags:
 - Blog
 - Gitbook

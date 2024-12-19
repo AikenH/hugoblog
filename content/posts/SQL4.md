@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover20.jpeg
 date: 2022-08-05 15:20:00
+description: 增删改（查）
 lang: cn
 mathjax: false
-subtitle: 增删改（查）
 tags:
 - SQL
 thumbnail: /img/header_img/lml_bg20.jpg

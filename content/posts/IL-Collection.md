@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover17.jpeg
 date: 2022-01-04 01:38:04
+description: Incremental Learning
 lang: cn
 mathjax: false
-subtitle: Incremental Learning
 tags:
 - Incremental Learning
 - Survey

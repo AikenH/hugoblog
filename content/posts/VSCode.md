@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover15.jpeg
 date: 2021-10-27 14:19:13
+description: Some configurations of VsCode
 lang: cn
 mathjax: false
-subtitle: Some configurations of VsCode
 tags:
 - VsCode
 thumbnail: /img/header_img/lml_bg42.jpg

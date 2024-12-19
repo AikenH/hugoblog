@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover9.jpeg
 date: 2021-10-03 13:16:40
+description: Optimal Speed and Accuracy of Object Detection
 lang: cn
 mathjax: false
-subtitle: Optimal Speed and Accuracy of Object Detection
 tags:
 - ObjectDetection
 thumbnail: /img/header_img/lml_bg36.jpg

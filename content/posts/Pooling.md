@@ -6,13 +6,13 @@ categories:
 cover:
   image: /cover/cover14.jpeg
 date: 2021-06-23 13:48:56
+description: null
 lang: cn
 mathjax: false
-subtitle: null
 tags:
 - Pooling
 - Survey
-- ML_Backbone
+- ML-Backbone
 thumbnail: /img/header_img/lml_bg41.jpg
 title: Pooling
 toc: true

@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover9.jpeg
 date: 2023-05-20 16:40:19
+description: It is recommended to replace tmux with zellij
 lang: cn
 mathjax: false
-subtitle: It is recommended to replace tmux with zellij
 tags:
 - Linux
 - CLI

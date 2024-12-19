@@ -6,9 +6,10 @@ categories:
 cover:
   image: /cover/cover12.jpeg
 date: 2021-11-29 13:12:05
+description: Multi-Grained Slow vs. Fast Framework for Few-Shot Class-Incremental
+  Learning
 lang: cn
 mathjax: false
-subtitle: Multi-Grained Slow vs. Fast Framework for Few-Shot Class-Incremental Learning
 tags:
 - Incremental Learning
 thumbnail: /img/header_img/lml_bg12.jpg

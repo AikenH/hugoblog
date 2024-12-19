@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover13.jpeg
 date: 2022-07-10 09:42:50
+description: 对波函数坍塌算法的理解
 lang: cn
 mathjax: true
-subtitle: 对波函数坍塌算法的理解
 tags:
 - WFC
 - ALgorithm

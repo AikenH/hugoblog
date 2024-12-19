@@ -6,10 +6,10 @@ categories:
 cover:
   image: /cover/cover14.jpeg
 date: 2024-01-27 15:42:36
+description: 'Secure and Personalize Your Web Services: A Guide to Nginx Authentication
+  and Engaging Frontend Design'
 lang: cn
 mathjax: false
-subtitle: 'Secure and Personalize Your Web Services: A Guide to Nginx Authentication
-  and Engaging Frontend Design'
 tags:
 - Flask
 - Nginx

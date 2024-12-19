@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover23.jpeg
 date: 2022-09-10 00:00:00
+description: this Configuration focus on the terminal functionality.
 lang: cn
 mathjax: false
-subtitle: this Configuration focus on the terminal functionality.
 tags:
 - MacOS
 - Configuration

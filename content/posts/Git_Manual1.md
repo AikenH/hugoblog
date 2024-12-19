@@ -6,8 +6,8 @@ categories:
 cover:
   image: /cover/cover11.jpeg
 date: 2022-02-01 12:19:34
+description: config git, usage, remote, bugs fixed
 lang: cn
-subtitle: config git, usage, remote, bugs fixed
 tags:
 - Git
 thumbnail: /img/header_img/lml_bg38.jpg

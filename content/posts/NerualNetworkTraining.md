@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover14.jpeg
 date: 2021-12-16 08:34:44
+description: null
 lang: cn
 mathjax: false
-subtitle: null
 tags:
 - ML-Training
 thumbnail: /img/header_img/lml_bg41.jpg

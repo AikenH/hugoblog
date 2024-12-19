@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover11.jpeg
 date: 2023-04-26 21:19:41
+description: Using Control Net to optimize you pic
 lang: cn
 mathjax: false
-subtitle: Using Control Net to optimize you pic
 tags:
 - AIGC
 thumbnail: /img/header_img/lml_bg38.jpg

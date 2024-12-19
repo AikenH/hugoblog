@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover9.jpeg
 date: 2023-03-10 13:12:20
+description: 计算大规模数据流中的元素出现频次的方法
 lang: cn
 mathjax: false
-subtitle: 计算大规模数据流中的元素出现频次的方法
 tags:
 - Matching
 thumbnail: /img/header_img/lml_bg9.jpg

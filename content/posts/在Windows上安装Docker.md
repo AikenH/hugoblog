@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover10.jpeg
 date: 2021-09-28 05:34:21
+description: install docker on wsl2 with portainer
 lang: cn
 mathjax: true
-subtitle: install docker on wsl2 with portainer
 tags:
 - Docker
 - WSL2

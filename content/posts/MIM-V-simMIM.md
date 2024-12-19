@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover11.jpeg
 date: 2021-11-23 06:38:19
+description: A Simple Framework for Masked Image Modeling
 lang: cn
 mathjax: false
-subtitle: A Simple Framework for Masked Image Modeling
 tags:
 - SSL
 thumbnail: /img/header_img/lml_bg11.jpg

@@ -5,9 +5,9 @@ categories:
 cover:
   image: /cover/cover1.jpeg
 date: 2024-10-22 17:05:32
+description: 使用类前置声明来解决CPP头文件相互包含带来的编译问题
 lang: cn
 mathjax: false
-subtitle: 使用类前置声明来解决CPP头文件相互包含带来的编译问题
 tags:
 - Cpp
 - Langs

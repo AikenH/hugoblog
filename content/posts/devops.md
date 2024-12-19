@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover10.jpeg
 date: 2023-03-25 09:55:32
+description: Explain Devops, CI, CD and How it works
 lang: cn
 mathjax: false
-subtitle: Explain Devops, CI, CD and How it works
 tags:
 - Devops
 thumbnail: /img/header_img/lml_bg10.jpg

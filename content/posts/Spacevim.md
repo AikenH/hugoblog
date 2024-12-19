@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover10.jpeg
 date: 2021-10-09 12:15:41
+description: Install and Set up LSP and UI
 lang: cn
 mathjax: false
-subtitle: Install and Set up LSP and UI
 tags:
 - Spacevim
 thumbnail: /img/header_img/lml_bg37.jpg

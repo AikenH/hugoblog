@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover16.jpeg
 date: 2021-10-07 15:00:42
+description: deploy vim
 lang: cn
 mathjax: false
-subtitle: deploy vim
 tags:
 - Vimscript
 - Vim

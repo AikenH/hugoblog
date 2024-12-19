@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover1.jpeg
 date: 2022-04-07 14:15:25
+description: recorder of neovim
 lang: cn
 mathjax: false
-subtitle: recorder of neovim
 tags:
 - Vim
 thumbnail: /img/header_img/lml_bg1.jpg

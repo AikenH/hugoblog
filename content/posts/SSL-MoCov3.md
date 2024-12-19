@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover0.jpeg
 date: 2021-11-29 13:12:05
+description: MoCo V3 An Empirical Study of Training Self-Supervised Visual Transformers
 lang: cn
 mathjax: false
-subtitle: MoCo V3 An Empirical Study of Training Self-Supervised Visual Transformers
 tags:
 - SSL
 thumbnail: /img/header_img/lml_bg0.jpg

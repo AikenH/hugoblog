@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover16.jpeg
 date: 2023-04-26 11:03:56
+description: The Basic Function of Stable Diffusion
 lang: cn
 mathjax: false
-subtitle: The Basic Function of Stable Diffusion
 tags:
 - AIGC
 thumbnail: /img/header_img/lml_bg43.jpg

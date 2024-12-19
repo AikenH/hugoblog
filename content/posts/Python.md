@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover23.jpeg
 date: 2021-10-27 14:19:13
+description: my personal notebook for python, record basic knowledge
 lang: cn
 mathjax: false
-subtitle: my personal notebook for python, record basic knowledge
 tags:
 - Python
 thumbnail: /img/header_img/lml_bg23.jpg

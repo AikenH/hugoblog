@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover3.jpeg
 date: 2022-08-02 11:17:04
+description: 学习数据库的标准处理语言SQL C1
 lang: cn
 mathjax: false
-subtitle: 学习数据库的标准处理语言SQL C1
 tags:
 - SQL
 thumbnail: /img/header_img/lml_bg30.jpg

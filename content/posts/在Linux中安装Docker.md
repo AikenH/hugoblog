@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover3.jpeg
 date: 2023-06-22 09:25:29
+description: install docker on linux with portainer
 lang: cn
 mathjax: false
-subtitle: install docker on linux with portainer
 tags:
 - Docker
 thumbnail: /img/header_img/lml_bg30.jpg

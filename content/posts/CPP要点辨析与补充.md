@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover8.jpeg
 date: 2021-11-28 06:24:23
+description: Data Structure and Type
 lang: cn
 mathjax: false
-subtitle: Data Structure and Type
 tags:
 - Cpp
 thumbnail: /img/header_img/lml_bg8.jpg

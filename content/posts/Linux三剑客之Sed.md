@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover19.jpeg
 date: 2023-04-15 23:22:56
+description: Linux 三剑客之Sed
 lang: cn
 mathjax: false
-subtitle: Linux 三剑客之Sed
 tags:
 - Bash
 thumbnail: /img/header_img/lml_bg19.jpg

@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover2.jpeg
 date: 2023-10-28 00:39:59
+description: null
 lang: cn
 mathjax: false
-subtitle: null
 tags:
 - Obsidian
 thumbnail: /img/header_img/lml_bg29.jpg

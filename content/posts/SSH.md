@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover13.jpeg
 date: 2021-02-22 01:45:43
+description: init ssh and set up remote services and ...
 lang: cn
 mathjax: false
-subtitle: init ssh and set up remote services and ...
 tags:
 - SSH
 - Git

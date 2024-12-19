@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover20.jpeg
 date: 2021-11-28 06:24:21
+description: config your linux from begin
 lang: cn
 mathjax: false
-subtitle: config your linux from begin
 tags:
 - Linux
 thumbnail: /img/header_img/lml_bg20.jpg

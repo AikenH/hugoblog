@@ -5,9 +5,9 @@ categories:
 cover:
   image: /cover/cover26.jpeg
 date: 2023-04-02 19:28:48
+description: null
 lang: cn
 mathjax: false
-subtitle: null
 tags:
 - MacOS
 - Configuration

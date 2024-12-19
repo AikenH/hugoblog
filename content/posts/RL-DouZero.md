@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover25.jpeg
 date: 2021-07-06 13:51:48
+description: Mastering DouDizhu with Self-Play Deep Reinforcement Learning
 lang: cn
 mathjax: false
-subtitle: Mastering DouDizhu with Self-Play Deep Reinforcement Learning
 tags:
 - RL
 thumbnail: /img/header_img/lml_bg25.jpg

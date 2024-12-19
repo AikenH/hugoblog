@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover8.jpeg
 date: 2023-01-25 22:04:15
+description: How to write shell script.
 lang: cn
 mathjax: false
-subtitle: How to write shell script.
 tags:
 - Bash
 thumbnail: /img/header_img/lml_bg8.jpg

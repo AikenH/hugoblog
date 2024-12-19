@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover1.jpeg
 date: 2021-09-28 13:44:20
+description: Open World Learning
 lang: cn
 mathjax: false
-subtitle: Open World Learning
 tags:
 - Open-World Learning
 thumbnail: /img/header_img/lml_bg1.jpg

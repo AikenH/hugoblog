@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover7.jpeg
 date: 2021-10-14 01:58:22
+description: vim's basic operation
 lang: cn
 mathjax: false
-subtitle: vim's basic operation
 tags:
 - Vim
 thumbnail: /img/header_img/lml_bg34.jpg

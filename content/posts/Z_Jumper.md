@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover16.jpeg
 date: 2022-05-20 21:22:53
+description: Reduce 'cd' to facilitate jumping between projects
 lang: cn
 mathjax: false
-subtitle: Reduce 'cd' to facilitate jumping between projects
 tags:
 - CLI
 thumbnail: /img/header_img/lml_bg16.jpg

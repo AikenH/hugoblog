@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover12.jpeg
 date: 2021-11-12 09:40:46
+description: null
 lang: cn
 mathjax: false
-subtitle: null
 tags:
 - Survey
 - Open-World Learning

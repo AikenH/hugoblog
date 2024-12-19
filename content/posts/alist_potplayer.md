@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover19.jpeg
 date: 2023-04-30 22:42:58
+description: intro how we use potplayer with alist,
 lang: cn
 mathjax: false
-subtitle: intro how we use potplayer with alist,
 tags:
 - Docker
 - Windows

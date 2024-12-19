@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover24.jpeg
 date: 2022-08-12 20:37:00
+description: Create and Run Unittest for python in VsCode
 lang: cn
 mathjax: false
-subtitle: Create and Run Unittest for python in VsCode
 tags:
 - Python
 - VsCode

@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover0.jpeg
 date: 2023-07-02 10:52:26
+description: null
 lang: cn
 mathjax: false
-subtitle: null
 tags:
 - Python
 - Numpy

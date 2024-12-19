@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover22.jpeg
 date: 2021-10-09 02:30:08
+description: Semi-Supervised Object Detection with Soft Teacher
 lang: cn
 mathjax: false
-subtitle: Semi-Supervised Object Detection with Soft Teacher
 tags:
 - Semi-SL
 thumbnail: /img/header_img/lml_bg22.jpg

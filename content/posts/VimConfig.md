@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover15.jpeg
 date: 2021-10-08 07:45:42
+description: Using Vimscript to deploy my nvim(<=0.5)
 lang: cn
 mathjax: false
-subtitle: Using Vimscript to deploy my nvim(<=0.5)
 tags:
 - Vimscript
 - Neovim

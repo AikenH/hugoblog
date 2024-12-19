@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover18.jpeg
 date: 2021-09-28 05:34:21
+description: google's GPU-server
 lang: cn
 mathjax: false
-subtitle: google's GPU-server
 tags:
 - Colab
 - Gpu

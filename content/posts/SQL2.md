@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover2.jpeg
 date: 2022-08-03 10:17:00
+description: SQL C2 from Install to use
 lang: cn
 mathjax: false
-subtitle: SQL C2 from Install to use
 tags:
 - SQL
 thumbnail: /img/header_img/lml_bg29.jpg

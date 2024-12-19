@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover8.jpeg
 date: 2023-03-05 09:59:40
+description: Setup powershell in windows
 lang: cn
 mathjax: false
-subtitle: Setup powershell in windows
 tags:
 - Windows
 - Powershell

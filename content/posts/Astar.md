@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover1.jpeg
 date: 2021-09-28 05:34:21
+description: A*算法，最短寻路算法，Dijkstra的变体的Py实现
 lang: cn
 mathjax: true
-subtitle: A*算法，最短寻路算法，Dijkstra的变体的Py实现
 tags:
 - Algorithm
 thumbnail: /img/header_img/lml_bg1.jpg

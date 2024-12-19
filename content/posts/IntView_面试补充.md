@@ -6,10 +6,10 @@ categories:
 cover:
   image: /cover/cover7.jpeg
 date: 2021-04-23 01:43:43
+description: additional information for interview
 lang: cn
 mathjax: false
 password: aikenhong_blog
-subtitle: additional information for interview
 tags:
 - Survey
 thumbnail: /img/header_img/lml_bg34.jpg

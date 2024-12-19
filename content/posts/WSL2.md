@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover4.jpeg
 date: 2021-09-28 02:17:39
+description: init and set up WSL2
 lang: cn
 mathjax: false
-subtitle: init and set up WSL2
 tags:
 - Windows
 - WSL2

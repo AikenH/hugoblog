@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover5.jpeg
 date: 2021-12-22 14:36:16
+description: Long-Tailed Learning Colooection
 lang: cn
 mathjax: false
-subtitle: Long-Tailed Learning Colooection
 tags:
 - Survey
 - Long-Tailed Learning

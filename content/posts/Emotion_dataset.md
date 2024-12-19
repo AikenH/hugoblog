@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover13.jpeg
 date: 2019-10-14 21:34:54
+description: null
 lang: cn
 mathjax: true
-subtitle: null
 tags:
 - Dataset
 - Emotion

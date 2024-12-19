@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover9.jpeg
 date: 2023-04-04 14:40:12
+description: 理解内网穿透的原理和简单实现
 lang: cn
 mathjax: false
-subtitle: 理解内网穿透的原理和简单实现
 tags:
 - NAS
 - NAT

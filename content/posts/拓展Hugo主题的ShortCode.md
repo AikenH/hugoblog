@@ -3,11 +3,11 @@ catalog: true
 categories:
 - 笔记系统和博客搭建
 cover:
-  image: /cover/cover8.jpeg
+  image: /cover/cover18.jpeg
 date: 2024-12-15 17:15:37
+description: 通过Hugo的短代码功能，拓展主题的功能，使博客能够支持更多的样式
 lang: cn
 mathjax: false
-description: 通过Hugo的短代码功能，拓展主题的功能，使博客能够支持更多的样式
 tags:
 - Blog
 - Hugo
@@ -16,8 +16,9 @@ title: 拓展Hugo主题的ShortCode
 toc: true
 ---
 
-> [!summary]+
+> [!important]+
 > 本文为了避免 hugo 直接将 shortcode 渲染出来，在所有的 {{ 和 < 或 >，% 之间添加空格，具体使用的时候记得去掉。
+
 
 ## What's ShortCode in Hugo Mean 啥是简码
 

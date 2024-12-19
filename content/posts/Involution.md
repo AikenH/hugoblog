@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover0.jpeg
 date: 2021-04-08 13:12:15
+description: Inverting the Inherence of Convolution for Visual Recognition
 lang: cn
 mathjax: false
-subtitle: Inverting the Inherence of Convolution for Visual Recognition
 tags:
 - ML-Backbone
 thumbnail: /img/header_img/lml_bg27.jpg

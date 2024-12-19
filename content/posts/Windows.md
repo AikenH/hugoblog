@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover7.jpeg
 date: 2021-09-28 02:16:26
+description: Some Special tips for Windows
 lang: cn
 mathjax: false
-subtitle: Some Special tips for Windows
 tags:
 - Windows
 thumbnail: /img/header_img/lml_bg34.jpg

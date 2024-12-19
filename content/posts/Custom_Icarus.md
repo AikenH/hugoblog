@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover15.jpeg
 date: 2023-03-11 23:46:37
+description: 基于Icarus的主题的个人配置
 lang: cn
 mathjax: false
-subtitle: 基于Icarus的主题的个人配置
 tags:
 - Blog
 - Hexo

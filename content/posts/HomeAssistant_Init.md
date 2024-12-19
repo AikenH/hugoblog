@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover15.jpeg
 date: 2023-08-12 17:24:50
+description: 基于Docker安装和配置HA，并提供一些初始的配置选项。
 lang: cn
 mathjax: false
-subtitle: 基于Docker安装和配置HA，并提供一些初始的配置选项。
 tags:
 - HomeAssistant
 thumbnail: /img/header_img/lml_bg15.jpg

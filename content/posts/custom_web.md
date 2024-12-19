@@ -6,10 +6,10 @@ categories:
 cover:
   image: /cover/cover5.jpeg
 date: 2022-10-02 18:00:00
+description: build your website by django and vue, save info in mysql
 lang: cn
 mathjax: false
 password: aikenhong_blog
-subtitle: build your website by django and vue, save info in mysql
 tags:
 - Vue
 - Django

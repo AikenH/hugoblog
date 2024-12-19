@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover8.jpeg
 date: 2021-11-15 12:25:45
+description: Masked Autoencoders Are Scalable Vision Learners
 lang: cn
 mathjax: false
-subtitle: Masked Autoencoders Are Scalable Vision Learners
 tags:
 - SSL
 thumbnail: /img/header_img/lml_bg8.jpg

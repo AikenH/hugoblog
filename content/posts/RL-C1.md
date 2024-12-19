@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover6.jpeg
 date: 2021-05-23 13:50:06
+description: Reinforcement learning Notebook 01
 lang: cn
 mathjax: false
-subtitle: Reinforcement learning Notebook 01
 tags:
 - RL
 thumbnail: /img/header_img/lml_bg6.jpg

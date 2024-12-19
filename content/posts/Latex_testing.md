@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover5.jpeg
 date: 2022-04-13 16:50:53
+description: test hexo render
 lang: cn
 mathjax: true
-subtitle: test hexo render
 tags:
 - Latex
 - Blog

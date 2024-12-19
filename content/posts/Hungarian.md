@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover10.jpeg
 date: 2021-12-03 00:29:37
+description: Matching Algorithm
 lang: cn
 mathjax: true
-subtitle: Matching Algorithm
 tags:
 - Matching
 thumbnail: /img/header_img/lml_bg37.jpg

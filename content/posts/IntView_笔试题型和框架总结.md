@@ -6,10 +6,10 @@ categories:
 cover:
   image: /cover/cover6.jpeg
 date: 2021-06-29 10:18:47
+description: conclusion for leetcode
 lang: cn
 mathjax: false
 password: aikenhong_blog
-subtitle: conclusion for leetcode
 tags:
 - Cpp
 - Leetcode

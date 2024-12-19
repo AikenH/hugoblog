@@ -3,11 +3,11 @@ catalog: true
 categories:
 - 笔记系统和博客搭建
 cover:
-  image: /cover/cover5.jpeg
+  image: /cover/cover4.jpeg
 date: 2024-12-17 17:38:18
+description: 利用render hook修改markdown元素的默认渲染样式
 lang: cn
 mathjax: false
-subtitle: 利用render hook修改markdown元素的默认渲染样式
 tags:
 - Blog
 - Hugo

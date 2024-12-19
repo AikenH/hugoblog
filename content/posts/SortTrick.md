@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover14.jpeg
 date: 2021-12-06 17:05:03
+description: Implementation of Sorting Algorithm
 lang: cn
 mathjax: true
-subtitle: Implementation of Sorting Algorithm
 tags:
 - Algorithm
 - Sort

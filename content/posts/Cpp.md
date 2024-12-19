@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover4.jpeg
 date: 2021-11-29 13:12:17
+description: cherno(ytb)-cpp-lesson
 lang: cn
 mathjax: false
-subtitle: cherno(ytb)-cpp-lesson
 tags:
 - Cpp
 thumbnail: /img/header_img/lml_bg31.jpg

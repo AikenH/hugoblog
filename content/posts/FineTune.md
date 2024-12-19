@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover0.jpeg
 date: 2022-02-08 14:31:37
+description: Design and code fine-tune in pytorch
 lang: cn
 mathjax: false
-subtitle: Design and code fine-tune in pytorch
 tags:
 - Fine-Tune
 - ML-Training

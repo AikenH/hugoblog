@@ -5,9 +5,9 @@ categories:
 cover:
   image: /cover/cover3.jpeg
 date: 2024-12-12 11:35:08
+description: 通过 GithubPage 或者 Vercel, Netlify 发布 Hugo 博客的记录
 lang: cn
 mathjax: false
-subtitle: 通过 GithubPage 或者 Vercel, Netlify 发布 Hugo 博客的记录
 tags:
 - Blog
 - Hugo
@@ -33,11 +33,8 @@ toc: true
 > [!todo]+
 > 了解一下 Coolify，是否是类似一个公网转发平台的方案，将特定端口的服务使用 Coolify 转发到公网上，然后可以绑定自己的域名，这样的话也不失为一个好东西，我之前的服务也就都能部署出去了；
 
-最终选择的时候可以考虑以下都是谁在访问自己的博客，然后测一下对应地区平台访问的速度来做决定，国内的话 vercel 好像是被 DNS 污染了，如果要部署在 Vercel 上的的话，考虑在域名解析的地方更换为CF 的解析服务 {{< sidenote >}} 原因：[vercel部署及国内访问| VuePress Theme Gungnir](https://www.zhongfw.online/posts/%E3%80%90%E5%A4%9A%E5%9B%BE%E9%A2%84%E8%AD%A6%E3%80%91vercel%E9%83%A8%E7%BD%B2%E5%8F%8A%E5%9B%BD%E5%86%85%E8%AE%BF%E9%97%AE.html){{< /sidenote >}}
-
-{{< sidenote >}}[一招解决Vercel站点在国内无法访问的问题 | 程序猿DD](https://www.didispace.com/article/richang/20230917-vercel-china-dns.html) {{< /sidenote >}}
-
-{{< sidenote >}}[如何在国内访问vercel部署应用？| 掘金](https://juejin.cn/post/7301193497247727652)  ； {{< /sidenote >}}  
+最终选择的时候可以考虑以下都是谁在访问自己的博客，然后测一下对应地区平台访问的速度来做决定，国内的话 vercel 好像是被 DNS 污染了，如果要部署在 Vercel 上的的话，考虑在域名解析的地方更换为CF 的解析服务 {{< sidenote >}} 原因：[【多图预警】vercel部署及国内访问 | VuePress Theme Gungnir](https://www.zhongfw.online/posts/%E3%80%90%E5%A4%9A%E5%9B%BE%E9%A2%84%E8%AD%A6%E3%80%91vercel%E9%83%A8%E7%BD%B2%E5%8F%8A%E5%9B%BD%E5%86%85%E8%AE%BF%E9%97%AE.html)
+ 具体方案：[一招解决Vercel站点在国内无法访问的问题 | 程序猿DD](https://www.didispace.com/article/richang/20230917-vercel-china-dns.html) | [如何在国内访问vercel部署应用？我个人觉得vercel是做前端的大家都应该去了解并且掌握的一个非常方便的部署工具，能 - 掘金](https://juejin.cn/post/7301193497247727652)  ； {{< /sidenote >}}
 
 ## 直接使用 Public 文件夹进行部署
 
@@ -84,7 +81,7 @@ run: |
 
 此外，如果个人之前已经对其他的 GithubPage 绑定了域名（例如 http://aikenh.cn/ ），这样可能会导致由于网页部署在域名的子目录下( http://aikenh.cn/hugoblog/ )，导致一些资源的 url 绑定到域名上（资源被绑定到 http://aikenh.cn/ 中导致 404 ），无法获取到，这里的解决方式是，通过绑定子域名/二级域名 或者新的域名。
 
-这里简单讲一下子域名的添加 {{< sidenote >}} 参考官方 [Github Docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain) {{< /sidenote >}} ，首先在 Github-Repo-Setting-Pages 中设置 Custom domain 如下
+这里简单讲一下子域名的添加 {{< sidenote >}} [Github Docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain) {{< /sidenote >}} ，首先在 Github-Repo-Setting-Pages 中设置 Custom domain 如下
 
 ![image.png](https://picture-bed-001-1310572365.cos.ap-guangzhou.myqcloud.com/mac/20241212111721.png)
 
@@ -166,7 +163,7 @@ hugo version
 
 ![image.png](https://picture-bed-001-1310572365.cos.ap-guangzhou.myqcloud.com/mac/20241212144752.png)
 
-到此为止的话其他分支上的提交也会导致触发build，为此我们还需要进一步设置，在刚刚 Git 页面的最底下，选择 only build production 即可{{< sidenote >}} ，这里参考 [oragekk](https://oragekk.me/tutorial/CI_CD/vercel-deploy.html#_2-%E6%AD%A5%E9%AA%A4) 进行设置 {{< /sidenote >}} ：
+到此为止的话其他分支上的提交也会导致触发build，为此我们还需要进一步设置，在刚刚 Git 页面的最底下，选择 only build production 即可，这里参考 {{< sidenote >}} [oragekk](https://oragekk.me/tutorial/CI_CD/vercel-deploy.html#_2-%E6%AD%A5%E9%AA%A4) {{< /sidenote >}} ：
 
 ![image.png](https://picture-bed-001-1310572365.cos.ap-guangzhou.myqcloud.com/mac/20241212173248.png)
 
@@ -192,7 +189,7 @@ Failed to find a valid digest in the 'integrity' attribute for resource
 
 如果是如下报错的话，可能是由于 minify 生成静态网页时，去掉了 html,js,css 等文件的部分空格和格式，来缩小文件的体积，但是修改后会导致文件校验失败，从而阻止加载，因此就会有两种解决方式：
 
-**hugo 设置中关闭校验** {{< sidenote >}} 感谢 [bj-Space](https://spartanmans.github.io/posts/hugobug/) 的分享 {{< /sidenote >}} : 在 hugo.yaml 中添加，（使用toml 配置的情自行修改对应选项）
+**hugo 设置中关闭校验** {{< sidenote >}} [bj-Space](https://spartanmans.github.io/posts/hugobug/) {{< /sidenote >}} : 在 hugo.yaml 中添加，（使用toml 配置的情自行修改对应选项）
 
 ```yaml
 params:
@@ -200,7 +197,7 @@ params:
 		disableFingerprinting: true
 ```
 
-**关闭 minify 选项** {{< sidenote >}} 还有 [3rd's blog](https://www.333rd.net/zh/posts/tech/hugo%E4%B8%A2%E5%A4%B1css%E5%AF%BC%E8%87%B4%E6%98%BE%E7%A4%BA%E5%BC%82%E5%B8%B8%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/)遇到的情况 {{< /sidenote >}}
+**关闭 minify 选项** {{< sidenote >}} [3rd's blog](https://www.333rd.net/zh/posts/tech/hugo%E4%B8%A2%E5%A4%B1css%E5%AF%BC%E8%87%B4%E6%98%BE%E7%A4%BA%E5%BC%82%E5%B8%B8%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/) {{< /sidenote >}}
 
 还有一些其他的可能问题：http 和 https 混用
 

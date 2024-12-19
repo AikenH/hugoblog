@@ -6,8 +6,8 @@ categories:
 cover:
   image: /cover/cover6.jpeg
 date: 2022-04-12 11:16:30
+description: 以 Livemylive 为例搭建并发布自己的Hexo博客
 lang: cn
-subtitle: 以 Livemylive 为例搭建并发布自己的Hexo博客
 tags:
 - Blog
 - Hexo

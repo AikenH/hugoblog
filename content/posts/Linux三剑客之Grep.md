@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover15.jpeg
 date: 2023-04-12 13:22:58
+description: Linux三剑客之Grep
 lang: cn
 mathjax: false
-subtitle: Linux三剑客之Grep
 tags:
 - Bash
 thumbnail: /img/header_img/lml_bg15.jpg

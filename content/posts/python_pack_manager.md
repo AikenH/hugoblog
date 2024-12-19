@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover14.jpeg
 date: 2023-03-06 11:27:52
+description: manager python env for development.
 lang: cn
 mathjax: false
-subtitle: manager python env for development.
 tags:
 - Python
 - Conda

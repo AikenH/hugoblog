@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover3.jpeg
 date: 2023-04-18 16:00:07
+description: Linux 三剑客之Awk
 lang: cn
 mathjax: false
-subtitle: Linux 三剑客之Awk
 tags:
 - Bash
 thumbnail: /img/header_img/lml_bg30.jpg

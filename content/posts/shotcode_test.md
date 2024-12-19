@@ -5,8 +5,8 @@ categories:
 cover:
   image: cover/cover0.jpeg
 date: 2024-11-23 11:30:03
+description: test hugo's shortcode function
 draft: false
-subtitle: test hugo's shortcode function
 tags:
 - Util
 title: ShortCode Function Test

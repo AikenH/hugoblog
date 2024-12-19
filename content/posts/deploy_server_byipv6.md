@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover9.jpeg
 date: 2023-11-05 19:23:17
+description: null
 lang: cn
 mathjax: false
-subtitle: null
 tags:
 - Ipv6
 thumbnail: /img/header_img/lml_bg1.jpg

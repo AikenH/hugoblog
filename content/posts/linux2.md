@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover6.jpeg
 date: 2022-09-04 21:30:00
+description: basic linux operation
 lang: cn
 mathjax: false
-subtitle: basic linux operation
 tags:
 - Linux
 thumbnail: /img/header_img/lml_bg6.jpg

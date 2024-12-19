@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover22.jpeg
 date: 2022-07-10 11:26:00
+description: 概率编程语言Markov Junior 随机生成迷宫
 lang: cn
 mathjax: false
-subtitle: 概率编程语言Markov Junior 随机生成迷宫
 tags:
 - Algorithm
 thumbnail: /img/header_img/lml_bg22.jpg

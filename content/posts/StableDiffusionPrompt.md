@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover2.jpeg
 date: 2023-04-26 21:22:38
+description: null
 lang: cn
 mathjax: false
-subtitle: null
 tags:
 - AIGC
 thumbnail: /img/header_img/lml_bg29.jpg

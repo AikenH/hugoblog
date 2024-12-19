@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover7.jpeg
 date: 2021-12-15 08:00:57
+description: Basic Knowledge of PyTorch
 lang: cn
 mathjax: false
-subtitle: Basic Knowledge of PyTorch
 tags:
 - Pytorch
 thumbnail: /img/header_img/lml_bg7.jpg

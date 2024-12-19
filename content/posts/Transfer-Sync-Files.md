@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover0.jpeg
 date: 2022-01-17 03:11:41
+description: using crontab, rsync, scp
 lang: cn
 mathjax: false
-subtitle: using crontab, rsync, scp
 tags:
 - SSH
 - Sync Files

@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover21.jpeg
 date: 2021-11-28 06:24:17
+description: 困难样本再采样
 lang: cn
 mathjax: true
-subtitle: 困难样本再采样
 tags:
 - ML-Training
 thumbnail: /img/header_img/lml_bg21.jpg

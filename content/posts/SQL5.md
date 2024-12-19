@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover3.jpeg
 date: 2022-08-05 17:30:00
+description: mySQL and business
 lang: cn
 mathjax: false
-subtitle: mySQL and business
 tags:
 - SQL
 thumbnail: /img/header_img/lml_bg3.jpg

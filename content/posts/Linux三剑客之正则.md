@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover2.jpeg
 date: 2023-04-11 22:57:40
+description: Linux 三剑客之RegExp
 lang: cn
 mathjax: false
-subtitle: Linux 三剑客之RegExp
 tags:
 - Bash
 thumbnail: /img/header_img/lml_bg2.jpg

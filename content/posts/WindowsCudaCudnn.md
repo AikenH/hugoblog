@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover17.jpeg
 date: 2023-04-24 09:50:01
+description: null
 lang: cn
 mathjax: false
-subtitle: null
 tags:
 - Windows
 - WSL2

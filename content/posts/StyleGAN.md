@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover11.jpeg
 date: 2021-10-03 13:16:40
+description: null
 lang: cn
 mathjax: false
-subtitle: null
 tags:
 - GAN
 thumbnail: /img/header_img/lml_bg11.jpg

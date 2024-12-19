@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover23.jpeg
 date: 2021-11-28 06:24:20
+description: null
 lang: cn
 mathjax: false
-subtitle: null
 tags:
 - ML-DataProcessing
 thumbnail: /img/header_img/lml_bg23.jpg

@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover22.jpeg
 date: 2021-05-30 13:52:42
+description: 腾讯绝悟
 lang: cn
 mathjax: false
-subtitle: 腾讯绝悟
 tags:
 - RL
 thumbnail: /img/header_img/lml_bg22.jpg

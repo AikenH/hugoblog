@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover5.jpeg
 date: 2021-12-10 08:24:46
+description: Do We Need Zero Training Loss After Achieving Zero Training Error
 lang: cn
 mathjax: false
-subtitle: Do We Need Zero Training Loss After Achieving Zero Training Error
 tags:
 - Loss
 thumbnail: /img/header_img/lml_bg32.jpg

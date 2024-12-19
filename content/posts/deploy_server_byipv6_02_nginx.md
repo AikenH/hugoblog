@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover7.jpeg
 date: 2023-11-06 20:49:16
+description: null
 lang: cn
 mathjax: false
-subtitle: null
 tags:
 - Ipv6
 - nginx

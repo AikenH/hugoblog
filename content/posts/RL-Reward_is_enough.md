@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover21.jpeg
 date: 2021-06-06 13:53:36
+description: null
 lang: cn
 mathjax: false
-subtitle: null
 tags:
 - RL
 thumbnail: /img/header_img/lml_bg21.jpg

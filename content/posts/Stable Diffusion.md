@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover2.jpeg
 date: 2023-04-19 16:00:00
+description: Intro on How to Set up and use it.
 lang: cn
 mathjax: false
-subtitle: Intro on How to Set up and use it.
 tags:
 - AIGC
 thumbnail: /img/header_img/lml_bg2.jpg

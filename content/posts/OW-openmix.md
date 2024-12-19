@@ -6,12 +6,12 @@ categories:
 cover:
   image: /cover/cover12.jpeg
 date: 2021-06-23 13:45:50
+description: Reviving Known Knowledge for Discovering Novel Visual Categories in An
+  Open World
 lang: cn
 mathjax: false
-subtitle: Reviving Known Knowledge for Discovering Novel Visual Categories in An Open
-  World
 tags:
-- OpenWorld Learning
+- Open-World Learning
 thumbnail: /img/header_img/lml_bg39.jpg
 title: OW-openmix
 toc: true

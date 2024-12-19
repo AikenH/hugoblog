@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover6.jpeg
 date: 2021-11-18 06:35:52
+description: Image Best Pre-Training With Online Tokenizer
 lang: cn
 mathjax: false
-subtitle: Image Best Pre-Training With Online Tokenizer
 tags:
 - SSL
 thumbnail: /img/header_img/lml_bg33.jpg

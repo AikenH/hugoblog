@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover8.jpeg
 date: 2020-01-14 02:13:25
+description: how to build a Image Caption Dataset
 lang: cn
 mathjax: true
-subtitle: how to build a Image Caption Dataset
 tags:
 - Dataset
 - Image Caption

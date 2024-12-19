@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover24.jpeg
 date: 2020-10-19 07:47:36
+description: Understand what's GAN
 lang: cn
 mathjax: false
-subtitle: Understand what's GAN
 tags:
 - GAN
 thumbnail: /img/header_img/lml_bg24.jpg

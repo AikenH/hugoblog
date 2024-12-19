@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover19.jpeg
 date: 2022-08-04 14:40:00
+description: Query in SQL
 lang: cn
 mathjax: false
-subtitle: Query in SQL
 tags:
 - SQL
 thumbnail: /img/header_img/lml_bg19.jpg

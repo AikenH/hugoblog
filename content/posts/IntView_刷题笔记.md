@@ -6,10 +6,10 @@ categories:
 cover:
   image: /cover/cover7.jpeg
 date: 2021-02-23 01:45:04
+description: all the text I have coded
 lang: cn
 mathjax: false
 password: aikenhong_blog
-subtitle: all the text I have coded
 tags:
 - Leetcode
 - Cpp

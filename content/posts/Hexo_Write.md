@@ -6,9 +6,9 @@ categories:
 cover:
   image: /cover/cover21.jpeg
 date: 2022-04-13 23:29:10
+description: 设置 vscode, vim, obsidian 自动为 Markdown 添加 Hexo 所需Meta信息
 lang: cn
 mathjax: true
-subtitle: 设置 vscode, vim, obsidian 自动为 Markdown 添加 Hexo 所需Meta信息
 tags:
 - Blog
 - Obsidian
