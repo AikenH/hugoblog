@@ -3,7 +3,7 @@ catalog: true
 categories:
 - 笔记系统和博客搭建
 cover:
-  image: /cover/cover3.jpeg
+  image: /cover/cover0.jpeg
 date: 2024-12-12 11:35:08
 description: 通过 GithubPage 或者 Vercel, Netlify 发布 Hugo 博客的记录
 lang: cn

@@ -3,7 +3,7 @@ catalog: true
 categories:
 - 笔记系统和博客搭建
 cover:
-  image: /cover/cover18.jpeg
+  image: /cover/cover5.jpeg
 date: 2024-12-15 17:15:37
 description: 通过Hugo的短代码功能，拓展主题的功能，使博客能够支持更多的样式
 lang: cn

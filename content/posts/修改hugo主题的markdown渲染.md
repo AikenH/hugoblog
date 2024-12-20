@@ -3,7 +3,7 @@ catalog: true
 categories:
 - 笔记系统和博客搭建
 cover:
-  image: /cover/cover4.jpeg
+  image: /cover/cover26.jpeg
 date: 2024-12-17 17:38:18
 description: 利用render hook修改markdown元素的默认渲染样式
 lang: cn

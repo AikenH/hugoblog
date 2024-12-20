@@ -3,7 +3,7 @@ catalog: true
 categories:
 - 笔记系统和博客搭建
 cover:
-  image: /cover/cover9.jpeg
+  image: /cover/cover10.jpeg
 date: 2024-12-18 13:26:12
 description: 以PaperMod主题为例，初始化hugo主题，并配置一些基础的功能
 lang: cn
@@ -206,7 +206,11 @@ def _surround_latex_by_tag(self, content:str) -> str:
         
         content = inline_latex_pattern.sub(lambda match: self._latex_add_space_inline(match, content), content)
 
-        # 3. add newline between the $$ block or $$$ block 
+        # 3. add newline between the 
+<div>
+$$ block or $$$
+</div>
+ block 
         block_latex_pattern = re.compile(r'(?<!\S)(\ $\$ .*?\ $\$ |(?<!\S)\ $\$ \ $.*?\$ \ $\$ )(?!\S)', re.DOTALL)
 
         content = block_latex_pattern.sub(lambda match: self._latex_add_div_tags(match, content), content)
@@ -218,7 +222,7 @@ def _surround_latex_by_tag(self, content:str) -> str:
         return content
 ```
 
-其他参考资料 {{< sidenote >}} [Math Typesetting | PaperMod](https://adityatelange.github.io/hugo-PaperMod/posts/math-typesetting/) {{< /sidenote >}}
+其他参考资料 {{< sidenote >}} - [Math Typesetting | PaperMod](https://adityatelange.github.io/hugo-PaperMod/posts/math-typesetting/) {{< /sidenote >}}
 
 ### Rss Setting for Follow 为 follow 认证设置 rss 
 
