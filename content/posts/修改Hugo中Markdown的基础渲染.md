@@ -3,7 +3,7 @@ catalog: true
 categories:
 - 笔记系统和博客搭建
 cover:
-  image: /cover/cover26.jpeg
+  image: /cover/cover6.jpeg
 date: 2024-12-17 17:38:18
 description: 利用render hook修改markdown元素的默认渲染样式
 lang: cn
@@ -12,7 +12,7 @@ tags:
 - Blog
 - Hugo
 thumbnail: /img/header_img/lml_bg1.jpg
-title: 更改hugo主题的markdown渲染
+title: 修改Hugo中Markdown的基础渲染
 toc: true
 ---
 
@@ -89,6 +89,7 @@ layouts/
 三、可以在 markdown 中通过代码块的方式调用 mermaid ：
 
 ![image.png](https://picture-bed-001-1310572365.cos.ap-guangzhou.myqcloud.com/mac/20241217194932.png)
+
 四、如果 mermaid 仍然渲染失败，或者没有开始渲染，尝试将 guessSyntax 设置为 false 如下 {{< sidenote >}} [Mermaid doesn't work ](https://github.com/adityatelange/hugo-PaperMod/discussions/850) {{< /sidenote >}} {{< sidenote >}}[从零开始搭建Hugo博客](https://ooe.ooo/posts/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BAhugo%E5%8D%9A%E5%AE%A2/) {{< /sidenote >}}：
 
 ```yaml
@@ -277,6 +278,7 @@ function toggleCode(element) {
 ```
 
 此外这里也将 copy-code 按钮挪到了标题栏上，主要是修改 copy 的样式和渲染位置 {{< sidenote >}} 可以参考 [[Feat] update default code style · AikenH ]( https://github.com/AikenH/papermod-sidebar/commit/2305a1c5a7098edaee8c850bae4efa2e22bb700d ) 剩余部分的修改，感兴趣的也可以点个 star，感谢。 {{< /sidenote >}}
+
 ### Alert-Blockquote 特殊引用块
 
 在之前简码部分的博客已经介绍了一些特殊的引用块样式和实现，可以根据官网 [Blockquote render hooks | Hugo](https://gohugo.io/render-hooks/blockquotes/) 将其改为自己的默认引用块即可，即可 markdown 中按照如下方式引用实现：
@@ -527,9 +529,11 @@ blockquote:not(.alert-blockquote){
 ```
 
 源码也都已经在 Github 中分享。
+
 ## Change Default Renders' Style 改变一些默认样式
 
 除了上述 markdown 基本单元的渲染调整，表格的样式也不是特别美观，但是由于表格本身的 html 模版已经不在需要调整，因此这里仅对其 css 样式做调整。
+
 ### Tables 表格样式调整
 
 默认的表格本身主要存在以下的一些问题：
@@ -591,6 +595,7 @@ blockquote:not(.alert-blockquote){
   /* border: 2px solid black; */
 }
 ```
+
 ## Fi 
 
 >  有错误欢迎指正和交流，感兴趣的也欢迎去 github 上点个 star，不胜感激；

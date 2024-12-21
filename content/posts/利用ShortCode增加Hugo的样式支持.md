@@ -4,7 +4,7 @@ categories:
 - 笔记系统和博客搭建
 cover:
   image: /cover/cover5.jpeg
-date: 2024-12-15 17:15:37
+date: 2024-12-18 17:15:37
 description: 通过Hugo的短代码功能，拓展主题的功能，使博客能够支持更多的样式
 lang: cn
 mathjax: false
@@ -12,7 +12,7 @@ tags:
 - Blog
 - Hugo
 thumbnail: /img/header_img/lml_bg1.jpg
-title: 拓展Hugo主题的ShortCode
+title: 利用ShortCode增加Hugo的样式支持
 toc: true
 ---
 

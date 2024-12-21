@@ -4,8 +4,8 @@ catalog: true
 categories:
 - 笔记系统和博客搭建
 cover:
-  image: /cover/cover15.jpeg
-date: 2024-12-19 16:52:43
+  image: /cover/cover25.jpeg
+date: 2024-12-15 16:52:43
 description: 进一步对PaperMod主题修改，设置侧边目录，侧边导航栏，评论区等功能
 lang: cn
 mathjax: false
